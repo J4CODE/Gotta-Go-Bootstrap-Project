@@ -1,0 +1,877 @@
+<!Doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gotta Go | Bootstrap Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/store-favicon-2.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css"
+      integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug==" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="blue-5">
+    <!-- Begin main header-->
+    <header class="header_area">
+      <div class="header_navbar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <img src="/assets/images/icon/fast-arrows-white.png"
+                style="height: 35px;" alt="text-logo">
+            <a class="navbar-brand text-white font-weight-bold" href="index.html" style="font-size:x-large;">&nbsp; Gotta Go</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-label="Toggle navigation">
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li>
+                  <a href="categories.html"><i class="fas fa-shopping-cart"></i>&nbsp; Shop<span
+                    class="line"></span></a>
+                </li>
+                <li>
+                  <a href="#">Menu </a>
+                  <ul class="sub-menu">
+                    <li><a href="about.html">About Gotta Go</a></li>
+                    <li><a href="product.html">All Listings</a></li>
+                    <li><a href="product-details.html">Listing Details</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pricing.html">Gotta Go Plans</a></li>
+                    <li><a href="gotta-go-locations.html">Popular Locations</a></li>
+                    <li><a href="sign-in.html">Sign In</a></li>
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                    <li><a href="index.html"><i class="fas fa-sign-out"></i> Sign Out</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact Us <span class="line"></span></a></li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li>
+                  <a href="#">My Account </a>
+                  <ul class="sub-menu">
+                    <li><a href="dashboard.html"> Dashboard</a></li>
+                    <li><a href="profile-settings.html"> Profile
+                      Settings</a>
+                    </li>
+                    <li><a href="my-ads.html"> My Ads</a></li>
+                    <li><a href="offermessages.html">
+                      Messages</a>
+                    </li>
+                    <li><a href="payments.html"> Payments</a></li>
+                    <li><a href="favourite-ads.html"> My
+                      Favourites</a>
+                    </li>
+                    <li><a href="privacy-setting.html"> Privacy
+                      Settings</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- End navbar -->
+      <!-- Begin hero -->
+      <div class="header_content bg_cover" style="background-image: url(assets/images/shopping-online.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="content_wrapper mt-3">
+                <h3 class="title"><img src="/assets/images/icon/fast-arrows-white.png" style="height: 75px;"
+                  alt=""> Gotta Go</h3>
+                <p>Make a quick buck and sell your unwanted, lying around the house, in the basement
+                  forever, been in the attic and garage items, today.
+                </p>
+                <h4 class="text-white mt-4">A website project, built with Bootstrap, where buyers and
+                  sellers can come together and trade,
+                  sell, buy, even give away, donate items, for almost anything.
+                </h4>
+                <ul class="header_btn">
+                  <li><a class="main-btn mt-4" href="/product.html" rel="nofollow"><i
+                    class="far fa-eye"></i> &nbsp; View All Gotta Go Listings</a></li>
+                  <li><a class="main-btn mt-4" href="/post-ads.html" rel="nofollow"><i
+                    class="fas fa-ad"></i> &nbsp; Post A Listing</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 pt-5">
+            <div class="header_search">
+              <form action="#">
+                <div class="search_wrapper d-flex flex-wrap">
+                  <div class="search_column d-flex flex-wrap">
+                    <div class="search_select mt-15">
+                      <select>
+                        <option value="0">&nbsp; Select A Location</option>
+                        <option value="1">Location 1</option>
+                        <option value="2">Location 2</option>
+                        <option value="4">Location 3</option>
+                      </select>
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="search_select mt-15">
+                      <select>
+                        <option value="0">&nbsp; Select A Category</option>
+                        <option value="1">Category 1</option>
+                        <option value="2">Category 2</option>
+                        <option value="4">Category 3</option>
+                      </select>
+                      <i class="fas fa-tag"></i>
+                    </div>
+                  </div>
+                  <div class="search_column d-flex flex-wrap">
+                    <div class="search_form mt-15">
+                      <input type="text" placeholder="Type A Keyword">
+                    </div>
+                    <div class="search_btn mt-15">
+                      <button class="main-btn"><i class="fas fa-search"></i>&nbsp; Search</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="header_keyword d-sm-flex">
+                <span class="title">Trending Keywords:</span>
+                <ul class="tags media-body">
+                  <li><a href="#">Computers</a></li>
+                  <li><a href="#">Electronics</a></li>
+                  <li><a href="#">PC Games</a></li>
+                  <li><a href="#">Furniture</a></li>
+                  <li><a href="#">Jewelry</a></li>
+                  <li><a href="#">Collectibles</a></li>
+                  <li><a href="#">Vehicles</a></li>
+                  <li><a href="#">Pet Supplies</a></li>
+                  <li><a href="#">Toys</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End hero section -->
+      <!-- Begin Social Media Icons Bar -->
+      <div>
+        <ul id="social-sidebar">
+          <li>
+            <a class="fab fa-facebook-f" href="https://www.facebook.com/" target="_blank"><span
+              class="font-weight-bold">Facebook</span></a>
+          </li>
+          <li>
+            <a class="fab fa-twitter" href="https://twitter.com/" target="_blank"><span
+              class="font-weight-bold">Twitter</span></a>
+          </li>
+          <li>
+            <a class="fab fa-instagram" href="https://www.instagram.com/" target="_blank"><span
+              class="font-weight-bold">Instagram</span></a>
+          </li>
+          <li>
+            <a class="fab fa-youtube" href="https://www.youtube.com/" target="_blank"><span
+              class="font-weight-bold">YouTube</span></a>
+          </li>
+          <li>
+            <a class="fab fa-linkedin-in" href="https://www.linkedin.com/" target="_blank"><span
+              class="font-weight-bold">Linkedin</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- End Social Media Icons Bar  -->
+    </header>
+    <!-- End of main header -->
+    <!-- Begin first counter section -->
+    <div>
+      <div class="counter_wrapper d-flex flex-wrap justify-content-center pt-3">
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/views-white.png" style="height: 40px;" alt="views-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">5,550,000</span>+</span>
+            </div>
+          </div>
+          <p>Page Views Per Month</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/mobile-users-white.png" style="height: 55px;"
+                alt="mobile-users-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">4,650,000</span>+</span>
+            </div>
+          </div>
+          <p>Number of Mobile Users Per Month</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/listings-white.png" style="height: 55px;" alt="listings-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">525,000</span>+</span>
+            </div>
+          </div>
+          <p>Number of Listings Per Month</p>
+        </div>
+      </div>
+    </div>
+    <!-- End first counter section -->
+    <!-- Begin categories -->
+    <section class="category_area pt-115 mb-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section_title">
+              <h3 class="title text-white">Popular Gotta Go Categories</h3>
+            </div>
+          </div>
+        </div>
+        <div class="category_wrapper d-flex flex-wrap justify-content-center pt-30">
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Smart Phones</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Desktop PCs</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-blender"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Appliances</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-couch"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Furniture</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-memory"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">PC Hardware</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-car-side"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Automobiles</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-ship"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Marine</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Tools</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Books</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Home Goods</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-gem"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Jewelry</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-guitar"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Guitars</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-caravan"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">RVs</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-ticket-alt"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Tickets & Events</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="single_category text-center mt-30">
+              <div class="icon">
+                <i class="fas fa-biking"></i>
+              </div>
+              <div class="content">
+                <h6 class="title">Cycling</h6>
+              </div>
+              <a href="product.html"></a>
+            </div>
+          </div>
+          <div class="category_btn">
+            <a class="main-btn" href="categories.html"><i class="far fa-eye"></i> &nbsp; View all Gotta Go
+            Categories</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Begin second counter section -->
+    <div>
+      <div class="counter_wrapper d-flex flex-wrap justify-content-center pt-3">
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/views-white.png" style="height: 40px;" alt="views-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">5,550,000</span>+</span>
+            </div>
+          </div>
+          <p>Number of Listings Viewed Today</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/mobile-users-white.png" style="height: 55px;"
+                alt="mobile-users-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">4,650,000</span>+</span>
+            </div>
+          </div>
+          <p>Number of Listings Viewed This Week</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/listings-white.png" style="height: 55px;" alt="listings-icon">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">6,300,000</span>+</span>
+            </div>
+          </div>
+          <p>Number of Listings Per Year</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Second Counter Section -->
+    <!-- Featured Locations -->
+    <section class="locations_area pt-115 pb-120">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section_title pb-15">
+              <h3 class="title text-white">Featured Gotta Go Locations</h3>
+            </div>
+          </div>
+        </div>
+        <div class="locations_wrapper">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-7 col-sm-8">
+              <div class="single_locations mt-30">
+                <div class="locations_image">
+                  <img src="assets/images/san-francisco.jpg" alt="Locations">
+                </div>
+                <div class="locations_content">
+                  <h5 class="title"><a href="https://tinyurl.com/y74wn2my" target="_blank"><i
+                    class="far fa-map"></i>San Francisco, CA</a></h5>
+                  <p class="text-dark font-weight-bold">50 listings posted in this location.</p>
+                  <a class="view text-dark" href="product.html"><i class="fas fa-eye"></i> &nbsp; View All
+                  Gotta Go Listings Here<i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-8">
+              <div class="single_locations mt-30">
+                <div class="locations_image">
+                  <img src="assets/images/chicago.jpg" alt="Locations">
+                </div>
+                <div class="locations_content">
+                  <h5 class="title"><a href="https://tinyurl.com/y7fuuy7l" target="_blank"><i
+                    class="far fa-map"></i>Chicago, IL</a></h5>
+                  <p class="text-dark font-weight-bold">45 listings posted in this location.</p>
+                  <a class="view text-dark" href="product.html"><i class="fas fa-eye"></i> &nbsp; View All
+                  Gotta Go Listings Here<i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-8">
+              <div class="single_locations mt-30">
+                <div class="locations_image">
+                  <img src="assets/images/orlando-fl.jpg" alt="Locations">
+                </div>
+                <div class="locations_content">
+                  <h5 class="title"><a href="https://tinyurl.com/yxkdboaq" target="_blank"><i
+                    class="far fa-map"></i>Orlando, FL</a></h5>
+                  <p class="text-dark font-weight-bold">65 listings posted in this location.</p>
+                  <a class="view text-dark" href="product.html"><i class="fas fa-eye"></i> &nbsp; View All
+                  Gotta Go Listings Here<i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="locations_btn text-center">
+            <a class="main-btn" href="gotta-go-locations.html"><i class="far fa-eye"></i> &nbsp; View Popular
+            Gotta Go Locations</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End featured locations -->
+    <!-- Begin Third Counter -->
+    <div>
+      <div class="counter_wrapper d-flex flex-wrap justify-content-center pt-3">
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/sale-white.png" style="height: 55px;" alt="counter">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">6,250,000</span>+</span>
+            </div>
+          </div>
+          <p>Published Gotta Go Listings</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/users-white.png" style="height: 55px;" alt="counter">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">3,450,000</span>+</span>
+            </div>
+          </div>
+          <p>Gotta Go Registered Users</p>
+        </div>
+        <div class="single_counter p-2 m-4">
+          <div class="counter_items d-flex">
+            <div class="counter_icon">
+              <img src="assets/images/icon/verified-user-white.png" style="height: 55px;" alt="counter">
+            </div>
+            <div class="counter_count media-body">
+              <span class="count"><span class="counter">3,150,000</span>+</span>
+            </div>
+          </div>
+          <p>Gotta Go Verified Users</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Third Counter -->
+    <!-- New listings -->
+    <section class="published_area pt-115 mb-5 pb-5">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section_title pb-15">
+              <h3 class="title text-white">New Gotta Go Listings</h3>
+            </div>
+          </div>
+        </div>
+        <div class="published_wrapper">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="single_ads_card mt-30">
+                <div class="ads_card_image">
+                  <img src="assets/images/ipad-5.jpg" alt="ads">
+                  <p class="sticker sticker_color-1">New</p>
+                </div>
+                <div class="ads_card_content">
+                  <div class="meta d-flex justify-content-between">
+                    <p>1st Gently Used iPad</p>
+                  </div>
+                  <h4 class="title"><a href="product-details.html">Delightfully capable.</a></h4>
+                  <p><i class="far fa-map"></i>San Francisco, CA</p>
+                  <div class="ads_price_date d-flex justify-content-between">
+                    <span class="price">$399.00</span>
+                    <span class="date">7/14/20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="single_ads_card mt-30">
+                <div class="ads_card_image">
+                  <img src="assets/images/ipad-2.jpg" alt="ads">
+                  <p class="sticker sticker_color-1">New</p>
+                </div>
+                <div class="ads_card_content">
+                  <div class="meta d-flex justify-content-between">
+                    <p>2nd Gently Used iPad</p>
+                  </div>
+                  <h4 class="title"><a href="product-details.html">
+                    Surprisingly affordable.</a>
+                  </h4>
+                  <p><i class="far fa-map"></i>Seattle, WA </p>
+                  <div class="ads_price_date d-flex justify-content-between">
+                    <span class="price">$499.00</span>
+                    <span class="date">8/18/20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="single_ads_card mt-30">
+                <div class="ads_card_image">
+                  <img src="assets/images/ipad-3.jpg" alt="ads">
+                  <p class="sticker sticker_color-1">New</p>
+                </div>
+                <div class="ads_card_content">
+                  <div class="meta d-flex justify-content-between">
+                    <p>3rd Gently Used iPad</p>
+                  </div>
+                  <h4 class="title"><a href="product-details.html">Design On The Go.</a></h4>
+                  <p><i class="far fa-map"></i>Chicago, IL</p>
+                  <div class="ads_price_date d-flex justify-content-between">
+                    <span class="price">$359.00</span>
+                    <span class="date">9/27/20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="single_ads_card mt-30">
+                <div class="ads_card_image">
+                  <img src="assets/images/ipad-4.jpg" alt="ads">
+                  <p class="sticker sticker_color-1">New</p>
+                </div>
+                <div class="ads_card_content">
+                  <div class="meta d-flex justify-content-between">
+                    <p>4th Gently Used iPad</p>
+                  </div>
+                  <h4 class="title"><a href="product-details.html">
+                    Great Battery Life.</a>
+                  </h4>
+                  <p><i class="far fa-map"></i>Orlando, FL</p>
+                  <div class="ads_price_date d-flex justify-content-between">
+                    <span class="price">$429.00</span>
+                    <span class="date">10/14/20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="published_btn">
+            <a href="product.html" class="main-btn"><i class="far fa-eye"></i> &nbsp; View all Gotta Go
+            Listings</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End new listings -->
+    <hr class="mt-5" style="border: black solid 1px;">
+    <section class="services_area pt-115 mb-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section_title text-center pb-15">
+              <h3 class="title text-white">Sign up today to enjoy these Gotta Go Membership Benefits.</h3>
+              <a href="/sign-up.html" class="main-btn mt-4">Sign Up Today &nbsp;<i class="fas fa-edit"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">Sell Items Safely</a></h4>
+                <p>Connect with Google Maps with the Gotta Go App. Meet at Gotta Go Locations.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-shopping-basket"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">Order Online with Free Shipping.</a></h4>
+                <p>Order online. No minimum purchase needed.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">A Great Community</a></h4>
+                <p>Connect, partner up and work together.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-money-bill-alt"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">Pay Online or Locally</a></h4>
+                <p>Works with Apple Pay, PayPal and many others.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">Great Tech Support</a></h4>
+                <p>Tech support is available 24 hours a day, 7 days a week, by phone or live chat.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_services d-flex mt-30">
+              <div class="services_icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <div class="services_content media-body">
+                <h4 class="title"><a href="#">Registered Members</a></h4>
+                <p>Members identities are checked and verified.</p>
+                <a class="more" href="#">Learn More <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="call_to_action_area pt-20 pb-70">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="call_to_action_content mt-45">
+              <h4 class="title">Subscribe today for the latest Gotta Go updates and news.</h4>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="call_to_action_form mt-50">
+              <form action="#">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email address">
+                <button class="main-btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Begin Main Footer -->
+    <footer class="footer_area black-bg">
+      <div class="footer_widget pt-70 pb-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer_link mt-45">
+                <h5 class="footer_title text-white">Our Company</h5>
+                <ul class="link">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Gotta Go Meetup locations</a></li>
+                  <li><a href="#">Our Mission</a></li>
+                  <li><a href="#">Upcoming Features</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer_link mt-45">
+                <h5 class="footer_title text-white">Selling Tips on Gotta Go</h5>
+                <ul class="link">
+                  <li><a href="#">Gotta Go User TIps</a></li>
+                  <li><a href="#">Buying and Selling Safely</a></li>
+                  <li><a href="#">Membership Benefits</a></li>
+                  <li><a href="#">Advertising with Gotta Go</a></li>
+                  <li><a href="#">Promote Your Listing</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer_link mt-45">
+                <h5 class="footer_title text-white">Gotta Go Info</h5>
+                <ul class="link">
+                  <li><a href="#">Our Company</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                  <li><a href="#">Investor Relations</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer_link mt-45">
+                <h5 class="footer_title text-white">Gotta Go Help & Support</h5>
+                <ul class="link">
+                  <li><a href="#">Live Chat</a></li>
+                  <li><a href="/faq.html">FAQ</a></li>
+                  <li><a href="#">Gotta Go Safety Guidelines</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Main Footer -->
+      <!-- Bottom footer -->
+      <div class="footer_copyright pt-15 pb-30">
+        <div class="container">
+          <div class="footer_copyright_wrapper text-center d-sm-flex justify-content-between align-items-center">
+            <div class="copyright mt-15">
+              <p>A DevPunch Software Project <a href="https://devpunch.com/" rel="nofollow"
+                target="_blank">&nbsp; | &nbsp; DevPunch</a> &copy; 2020</p>
+            </div>
+            <div class="payment mt-15">
+              <ul>
+                <li><a href="https://usa.visa.com/" target="_blank"><img src="assets/images/icon/visa.png"
+                  alt="payment" title="Visa" style="height: 45px;"></a></li>
+                <li><a href="https://www.discover.com/" target="_blank"><img
+                  src="assets/images/icon/discover.png" alt="payment" title="Discover"
+                  style="height: 60px;"></a></li>
+                <li><a href="https://www.paypal.com/us/home" target="_blank"><img
+                  src="assets/images/icon/paypal.png" alt="payment" title="PayPal"
+                  style="height: 40px;"></a></li>
+                <li><a href="https://www.mastercard.us/en-us.html" target="_blank"><img
+                  src="assets/images/icon/mastercard.png" alt="payment" title="MasterCard"
+                  style="height: 42px;"></a></li>
+                <li><a href="https://www.apple.com/apple-pay/" target="_blank"><img
+                  src="assets/images/icon/apple_pay.png" alt="payment" title="Apple Pay"
+                  style="height: 42px;"></a></li>
+                <li><a href="https://pay.google.com/about/" target="_blank"><img
+                  src="assets/images/icon/google_wallet.png" alt="payment" title="Google Wallet"
+                  style="height: 40px;"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End bottom footer -->
+    
+    <!-- Back to top icon -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- End back to top icon -->
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Counter Up js -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Price Range js -->
+    <script src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Ajax Contact js -->
+    <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
